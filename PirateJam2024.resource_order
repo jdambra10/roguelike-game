@@ -2,6 +2,7 @@
   "FolderOrderSettings":[],
   "ResourceOrderSettings":[
     {"name":"EnemyObj","order":1,"path":"objects/EnemyObj/EnemyObj.yy",},
+    {"name":"objEnemySpawner","order":2,"path":"objects/objEnemySpawner/objEnemySpawner.yy",},
     {"name":"scr_macros","order":1,"path":"scripts/scr_macros/scr_macros.yy",},
     {"name":"BaseFloorSprite","order":2,"path":"sprites/BaseFloorSprite/BaseFloorSprite.yy",},
     {"name":"PlayerSprite","order":1,"path":"sprites/PlayerSprite/PlayerSprite.yy",},
