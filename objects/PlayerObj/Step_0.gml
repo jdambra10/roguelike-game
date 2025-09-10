@@ -60,7 +60,6 @@ depth = -bbox_bottom;
 
 
 //Potion Attack
-
 if space_key && !potion_cooldown {
 	potion_cooldown = true;
 	alarm[0] = 40;

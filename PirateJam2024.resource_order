@@ -1,11 +1,11 @@
 {
   "FolderOrderSettings":[],
   "ResourceOrderSettings":[
-    {"name":"PlayerObj","order":1,"path":"objects/PlayerObj/PlayerObj.yy",},
-    {"name":"PotionObj","order":3,"path":"objects/PotionObj/PotionObj.yy",},
-    {"name":"SlimeObj","order":2,"path":"objects/SlimeObj/SlimeObj.yy",},
-    {"name":"BaseFloorSprite","order":3,"path":"sprites/BaseFloorSprite/BaseFloorSprite.yy",},
-    {"name":"PotionSprite","order":2,"path":"sprites/PotionSprite/PotionSprite.yy",},
-    {"name":"SlimeSprite","order":1,"path":"sprites/SlimeSprite/SlimeSprite.yy",},
+    {"name":"EnemyObj","order":1,"path":"objects/EnemyObj/EnemyObj.yy",},
+    {"name":"scr_macros","order":1,"path":"scripts/scr_macros/scr_macros.yy",},
+    {"name":"BaseFloorSprite","order":2,"path":"sprites/BaseFloorSprite/BaseFloorSprite.yy",},
+    {"name":"PlayerSprite","order":1,"path":"sprites/PlayerSprite/PlayerSprite.yy",},
+    {"name":"PotionSprite","order":3,"path":"sprites/PotionSprite/PotionSprite.yy",},
+    {"name":"WallSprite","order":4,"path":"sprites/WallSprite/WallSprite.yy",},
   ],
 }
