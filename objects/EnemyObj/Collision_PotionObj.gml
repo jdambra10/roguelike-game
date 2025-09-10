@@ -1,1 +1,1 @@
-Slime.hp = Slime.hp - global.player.potion_atk.damage;
+Enemy.hp = Enemy.hp - global.player.potion_atk.damage;

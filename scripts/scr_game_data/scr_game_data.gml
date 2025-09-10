@@ -11,6 +11,7 @@ enum ROOM_TYPE {
 	SPAWN,
 	MOB,
 	TREASURE,
+	SHOP,
 	PUZZLE,
 	BOSS
 }

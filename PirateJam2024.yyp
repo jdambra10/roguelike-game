@@ -36,10 +36,8 @@
   "name":"PirateJam2024",
   "resources":[
     {"id":{"name":"EnemyObj","path":"objects/EnemyObj/EnemyObj.yy",},},
-    {"id":{"name":"Object1testing","path":"objects/Object1testing/Object1testing.yy",},},
     {"id":{"name":"PlayerObj","path":"objects/PlayerObj/PlayerObj.yy",},},
     {"id":{"name":"PotionObj","path":"objects/PotionObj/PotionObj.yy",},},
-    {"id":{"name":"SlimeObj","path":"objects/SlimeObj/SlimeObj.yy",},},
     {"id":{"name":"WallObj","path":"objects/WallObj/WallObj.yy",},},
     {"id":{"name":"rm_testing","path":"rooms/rm_testing/rm_testing.yy",},},
     {"id":{"name":"scr_game_data","path":"scripts/scr_game_data/scr_game_data.yy",},},
