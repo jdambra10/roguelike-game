@@ -1,10 +1,14 @@
 {
   "FolderOrderSettings":[],
   "ResourceOrderSettings":[
-    {"name":"EnemyObj","order":1,"path":"objects/EnemyObj/EnemyObj.yy",},
-    {"name":"objEnemySpawner","order":2,"path":"objects/objEnemySpawner/objEnemySpawner.yy",},
+    {"name":"EnemyObj","order":3,"path":"objects/EnemyObj/EnemyObj.yy",},
+    {"name":"objEnemySpawner","order":4,"path":"objects/objEnemySpawner/objEnemySpawner.yy",},
+    {"name":"PlayerHUBObj","order":5,"path":"objects/PlayerHUBObj/PlayerHUBObj.yy",},
+    {"name":"PlayerObj","order":2,"path":"objects/PlayerObj/PlayerObj.yy",},
+    {"name":"PotionObj","order":1,"path":"objects/PotionObj/PotionObj.yy",},
     {"name":"scr_macros","order":1,"path":"scripts/scr_macros/scr_macros.yy",},
     {"name":"BaseFloorSprite","order":2,"path":"sprites/BaseFloorSprite/BaseFloorSprite.yy",},
+    {"name":"HUDSprite","order":5,"path":"sprites/HUDSprite/HUDSprite.yy",},
     {"name":"PlayerSprite","order":1,"path":"sprites/PlayerSprite/PlayerSprite.yy",},
     {"name":"PotionSprite","order":3,"path":"sprites/PotionSprite/PotionSprite.yy",},
     {"name":"WallSprite","order":4,"path":"sprites/WallSprite/WallSprite.yy",},

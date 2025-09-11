@@ -35,8 +35,10 @@
   },
   "name":"PirateJam2024",
   "resources":[
+    {"id":{"name":"fnt_game","path":"fonts/fnt_game/fnt_game.yy",},},
     {"id":{"name":"EnemyObj","path":"objects/EnemyObj/EnemyObj.yy",},},
     {"id":{"name":"objEnemySpawner","path":"objects/objEnemySpawner/objEnemySpawner.yy",},},
+    {"id":{"name":"PlayerHUBObj","path":"objects/PlayerHUBObj/PlayerHUBObj.yy",},},
     {"id":{"name":"PlayerObj","path":"objects/PlayerObj/PlayerObj.yy",},},
     {"id":{"name":"PotionObj","path":"objects/PotionObj/PotionObj.yy",},},
     {"id":{"name":"WallObj","path":"objects/WallObj/WallObj.yy",},},
@@ -44,6 +46,7 @@
     {"id":{"name":"scr_game_data","path":"scripts/scr_game_data/scr_game_data.yy",},},
     {"id":{"name":"scr_macros","path":"scripts/scr_macros/scr_macros.yy",},},
     {"id":{"name":"BaseFloorSprite","path":"sprites/BaseFloorSprite/BaseFloorSprite.yy",},},
+    {"id":{"name":"HUDSprite","path":"sprites/HUDSprite/HUDSprite.yy",},},
     {"id":{"name":"PlayerSprite","path":"sprites/PlayerSprite/PlayerSprite.yy",},},
     {"id":{"name":"PotionSprite","path":"sprites/PotionSprite/PotionSprite.yy",},},
     {"id":{"name":"SlimeSprite","path":"sprites/SlimeSprite/SlimeSprite.yy",},},
