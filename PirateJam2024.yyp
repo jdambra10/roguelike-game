@@ -37,8 +37,8 @@
   "resources":[
     {"id":{"name":"fnt_game","path":"fonts/fnt_game/fnt_game.yy",},},
     {"id":{"name":"EnemyObj","path":"objects/EnemyObj/EnemyObj.yy",},},
+    {"id":{"name":"LvlExpHUDObj","path":"objects/LvlExpHUDObj/LvlExpHUDObj.yy",},},
     {"id":{"name":"objEnemySpawner","path":"objects/objEnemySpawner/objEnemySpawner.yy",},},
-    {"id":{"name":"PlayerHUBObj","path":"objects/PlayerHUBObj/PlayerHUBObj.yy",},},
     {"id":{"name":"PlayerObj","path":"objects/PlayerObj/PlayerObj.yy",},},
     {"id":{"name":"PotionObj","path":"objects/PotionObj/PotionObj.yy",},},
     {"id":{"name":"WallObj","path":"objects/WallObj/WallObj.yy",},},

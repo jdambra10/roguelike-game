@@ -2,8 +2,8 @@
   "FolderOrderSettings":[],
   "ResourceOrderSettings":[
     {"name":"EnemyObj","order":3,"path":"objects/EnemyObj/EnemyObj.yy",},
+    {"name":"LvlExpHUDObj","order":5,"path":"objects/LvlExpHUDObj/LvlExpHUDObj.yy",},
     {"name":"objEnemySpawner","order":4,"path":"objects/objEnemySpawner/objEnemySpawner.yy",},
-    {"name":"PlayerHUBObj","order":5,"path":"objects/PlayerHUBObj/PlayerHUBObj.yy",},
     {"name":"PlayerObj","order":2,"path":"objects/PlayerObj/PlayerObj.yy",},
     {"name":"PotionObj","order":1,"path":"objects/PotionObj/PotionObj.yy",},
     {"name":"scr_macros","order":1,"path":"scripts/scr_macros/scr_macros.yy",},
