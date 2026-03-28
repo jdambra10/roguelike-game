@@ -1,11 +1,12 @@
 {
   "FolderOrderSettings":[],
   "ResourceOrderSettings":[
-    {"name":"EnemyObj","order":3,"path":"objects/EnemyObj/EnemyObj.yy",},
     {"name":"LvlExpHUDObj","order":5,"path":"objects/LvlExpHUDObj/LvlExpHUDObj.yy",},
     {"name":"objEnemySpawner","order":4,"path":"objects/objEnemySpawner/objEnemySpawner.yy",},
     {"name":"PlayerObj","order":2,"path":"objects/PlayerObj/PlayerObj.yy",},
     {"name":"PotionObj","order":1,"path":"objects/PotionObj/PotionObj.yy",},
+    {"name":"SlimeObj","order":3,"path":"objects/SlimeObj/SlimeObj.yy",},
+    {"name":"scr_level_curve","order":2,"path":"scripts/scr_level_curve/scr_level_curve.yy",},
     {"name":"scr_macros","order":1,"path":"scripts/scr_macros/scr_macros.yy",},
     {"name":"BaseFloorSprite","order":2,"path":"sprites/BaseFloorSprite/BaseFloorSprite.yy",},
     {"name":"HUDSprite","order":5,"path":"sprites/HUDSprite/HUDSprite.yy",},

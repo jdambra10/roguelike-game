@@ -26,7 +26,8 @@ enum ENEMY_POOL {
 
 /* Player Data
 Parameter Reference Chart:
-name: Name of Mob
+name: name of the player
+level: level of the player
 hp: CURRENT health value
 hpMax: maximum health value
 speed: how fast the mob moves
@@ -41,8 +42,10 @@ global.player =
 	player:
 	{
 		name: "Hero",
+        level: 1,
+        exp: 0,
 		hp: 30,
-		hpMax: 30,
+		zhpMax: 30,
 		speed: 3,
 		element: ELEMENTAL_VALUE.NONE,
 		weakness: ELEMENTAL_VALUE.NONE,

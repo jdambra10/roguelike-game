@@ -3,7 +3,7 @@
 */
 
 // Try to spawn enemies up to the max
-if (instance_number(EnemyObj) < max_enemies) {
+if (instance_number(SlimeObj) < max_enemies) {
 
     // Generate coordinate pair
     var spawn_coord_x = irandom_range(0, room_width);
@@ -17,7 +17,7 @@ if (instance_number(EnemyObj) < max_enemies) {
     //       Maybe move to EnemyObj::Create?
     if ! (position_meeting(spawn_coord_x, spawn_coord_y, all)) {
         // Spawn enemy
-        var spawned = instance_create_layer(spawn_coord_x, spawn_coord_y, layer, EnemyObj);
+        var spawned = instance_create_layer(spawn_coord_x, spawn_coord_y, layer, SlimeObj);
         show_debug_message($"[objEnemySpawner::Alarm0] Spawned enemy ${spawned.id} at {spawn_coord_x}, {spawn_coord_y}")
     }
 
