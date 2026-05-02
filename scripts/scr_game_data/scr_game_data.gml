@@ -22,11 +22,20 @@ enum ENEMY_POOL {
 	TIER_3
 }
 
-
+// Used to print the player's current attack element
+// in a proper format.
+global.element_names = [
+    "Lightning", // index 0 = ELEMENTAL_VALUE.LIGHTNING
+    "Poison",    // index 1 = ELEMENTAL_VALUE.POISON
+    "Fire",      // index 2 = ELEMENTAL_VALUE.FIRE
+    "Ice",       // index 3 = ELEMENTAL_VALUE.ICE
+    "None"       // index 4 = ELEMENTAL_VALUE.NONE
+];
 
 /* Player Data
 Parameter Reference Chart:
-name: Name of Mob
+name: name of the player
+level: level of the player
 hp: CURRENT health value
 hpMax: maximum health value
 speed: how fast the mob moves
@@ -41,6 +50,8 @@ global.player =
 	player:
 	{
 		name: "Hero",
+        level: 1,
+        exp: 0,
 		hp: 30,
 		hpMax: 30,
 		speed: 3,
@@ -52,7 +63,9 @@ global.player =
 	
 	potion_atk:
 	{
-		speed: 1,
+        atk_speed: 2,
+		x_speed: 0,
+        y_speed: 0,
 		fire_rate: 1,
 		element: ELEMENTAL_VALUE.NONE,
 		damage: 5
@@ -66,6 +79,7 @@ Parameter Reference Chart:
 name: Name of Mob
 hp: CURRENT health value
 hpMax: maximum health value
+damage: how much damage their attack does
 speed: how fast the mob moves
 weakness: elemental or weapon weakness
 resistance: elemental or weapon resistance (Tier 2 & 3 only)
@@ -80,6 +94,7 @@ global.tier_1_enemies =
 		name: "Slime",
 		hp: 30,
 		hpMax: 30,
+        damage: 5,
 		xpValue: 10,
 		speed: 10,
 		weakness: ELEMENTAL_VALUE.NONE,
