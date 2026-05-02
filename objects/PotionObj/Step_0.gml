@@ -1,3 +1,3 @@
-x += lengthdir_x(speed, image_angle);
-y += lengthdir_y(speed, image_angle);
+x += lengthdir_x(x_speed, image_angle);
+y += lengthdir_y(y_speed, image_angle);
 
